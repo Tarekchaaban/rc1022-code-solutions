@@ -1,0 +1,21 @@
+button {
+  height: 40px;
+  width: 120px;
+  padding: 2px;
+  font-size: 17px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+
+thead > tr {
+  background-color: black;
+  color: white;
+}
+
+tbody > tr:nth-of-type(odd) {
+  background-color: lightgray;
+}
