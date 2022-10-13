@@ -1,0 +1,42 @@
+body {
+  background-color: #1996da;
+  color: white;
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.column-third {
+  flex-basis: 33.333%;
+}
+
+.pic-background {
+  background-color: white;
+  border-radius: 50%;
+  border: none;
+  height: 200px;
+  width: 200px;
+  margin: auto;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 14px;
+}
+
+img {
+  width: 100%;
+  padding: 50px;
+}
