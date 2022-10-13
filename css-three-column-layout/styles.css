@@ -22,8 +22,8 @@ body {
   background-color: white;
   border-radius: 50%;
   border: none;
-  height: 200px;
-  width: 200px;
+  height: 100px;
+  width: 100px;
   margin: auto;
 }
 
@@ -38,5 +38,5 @@ p {
 
 img {
   width: 100%;
-  padding: 50px;
+  padding: 20px;
 }
