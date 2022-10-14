@@ -3,7 +3,7 @@ body {
 }
 
 .container {
-  max-width: 750px;
+  max-width: 700px;
   margin: auto;
 }
 
@@ -11,15 +11,21 @@ body {
   flex-basis: 100%;
 }
 
-h1 {
+h2 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
   letter-spacing: 2px;
 }
 
 p {
+  text-align: left;
+  font-size: 0.75em;
+}
+
+.header-paragraph {
+  font-size: 0.75em;
   text-align: center;
-  font-size: 0.9em;
+  margin-bottom: 45px;
 }
 
 .wrap {
@@ -40,4 +46,9 @@ p {
 
 .row {
   display: flex;
+}
+
+img {
+  width: 60%;
+  margin-left: 45px;
 }
