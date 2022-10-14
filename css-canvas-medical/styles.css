@@ -1,0 +1,48 @@
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+ul > li {
+  display: inline;
+  padding: 12px;
+  font-family: Avenir, sans-serif;
+  color: #d4d4d4;
+  font-size: 12px;
+}
+
+.inline {
+  display: inline;
+}
+
+.column-two-fifths {
+  flex-basis: 40%;
+}
+
+.column-three-fifths {
+  flex-basis: 60%;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  padding-left: 45px;
+}
+
+.contact-us-btn {
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: #c0c8d1;
+  border-color: transparent;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 8%;
+}
