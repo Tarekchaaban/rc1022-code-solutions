@@ -9,7 +9,7 @@
 
 ul > li {
   display: inline;
-  padding: 12px;
+  padding: 15px;
   font-family: Avenir, sans-serif;
   color: #d4d4d4;
   font-size: 12px;
@@ -33,9 +33,9 @@ ul > li {
 }
 
 .logo-image {
-  padding-left: 45px;
+  padding-left: 55px;
   width: 40%;
-  padding-top: 22px;
+  padding-top: 50px;
 }
 
 .contact-us-btn {
@@ -51,12 +51,13 @@ ul > li {
 
 .hero-image {
   background-image: url("images/hero.jpg");
-  height: 500px;
-  width: auto;
+  height: 450px;
+  width: 90%;
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  margin: auto;
 }
 
 .column-full {
@@ -64,7 +65,7 @@ ul > li {
 }
 
 .overlay {
-  background: linear-gradient(transparent, rgb(0 0 0 / 50%));
+  background: linear-gradient(transparent, rgb(0 0 0 / 40%));
   position: absolute;
   top: 0;
   bottom: 0;
@@ -87,15 +88,15 @@ ul > li {
   top: 120px;
   left: 40px;
   text-align: left;
-  font-size: 14px;
+  font-size: 13px;
   font-family: Avenir, sans-serif;
   color: white;
-  line-height: 25px;
+  line-height: 20px;
 }
 
 .hero-button {
   position: absolute;
-  top: 350px;
+  bottom: 55px;
   left: 40px;
   background-color: #294464;
   border-color: transparent;
@@ -103,4 +104,13 @@ ul > li {
   font-family: Avenir, sans-serif;
   padding: 10px 30px;
   border-radius: 5%;
+}
+
+.list-padding {
+  padding-left: 80px;
+  padding-top: 45px;
+}
+
+.hr-margin {
+  margin-bottom: 50px;
 }
