@@ -1,5 +1,5 @@
 .container {
-  width: 1100px;
+  width: 1000px;
   margin: auto;
 }
 
@@ -34,6 +34,8 @@ ul > li {
 
 .logo-image {
   padding-left: 45px;
+  width: 40%;
+  padding-top: 22px;
 }
 
 .contact-us-btn {
@@ -45,4 +47,60 @@ ul > li {
   padding-top: 6px;
   padding-bottom: 6px;
   border-radius: 8%;
+}
+
+.hero-image {
+  background-image: url("images/hero.jpg");
+  height: 500px;
+  width: auto;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 50%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-header {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+  line-height: 30px;
+  font-family: "Tiempos Headline", sans-serif;
+  letter-spacing: 2px;
+}
+
+.hero-paragraph {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Avenir, sans-serif;
+  color: white;
+  line-height: 25px;
+}
+
+.hero-button {
+  position: absolute;
+  top: 350px;
+  left: 40px;
+  background-color: #294464;
+  border-color: transparent;
+  color: white;
+  font-family: Avenir, sans-serif;
+  padding: 10px 30px;
+  border-radius: 5%;
 }
