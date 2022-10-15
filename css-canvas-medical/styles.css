@@ -114,3 +114,51 @@ ul > li {
 .hr-margin {
   margin-bottom: 50px;
 }
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.gray-background {
+  background-color: #fafafa;
+  margin-top: 40px;
+  height: 350px;
+}
+
+.clinician-header {
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 500;
+  color: #777;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.clinician-paragraph {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  font-size: 11px;
+  color: #919191;
+  font-weight: 600;
+  line-height: 15px;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.location-format {
+  text-align: center;
+  line-height: 30px;
+  font-family: Avenir, sans-serif;
+  color: #747474;
+  font-weight: bolder;
+  font-size: 14px;
+}
