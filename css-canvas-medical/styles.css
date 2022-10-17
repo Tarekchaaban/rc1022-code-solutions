@@ -1,0 +1,251 @@
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+ul > li {
+  display: inline;
+  padding: 15px;
+  font-family: Avenir, sans-serif;
+  color: #c9c9c9;
+  font-size: 12px;
+}
+
+.inline {
+  display: inline;
+}
+
+.column-two-fifths {
+  flex-basis: 40%;
+}
+
+.column-three-fifths {
+  flex-basis: 60%;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-image {
+  padding-left: 55px;
+  width: 40%;
+  padding-top: 50px;
+}
+
+.contact-us-btn {
+  font-family: Avenir, sans-serif;
+  background-color: #294464;
+  color: #bfc7d0;
+  border-color: transparent;
+  font-size: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 8%;
+}
+
+.hero-image {
+  background-image: url("images/hero.jpg");
+  height: 450px;
+  width: 90%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  margin: auto;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+.overlay {
+  background: linear-gradient(transparent, rgb(0 0 0 / 40%));
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.hero-header {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  color: white;
+  line-height: 30px;
+  font-family: "Tiempos Headline", sans-serif;
+  letter-spacing: 2px;
+}
+
+.hero-paragraph {
+  position: absolute;
+  top: 120px;
+  left: 40px;
+  text-align: left;
+  font-size: 13px;
+  font-family: Avenir, sans-serif;
+  color: white;
+  line-height: 20px;
+}
+
+.hero-button {
+  position: absolute;
+  bottom: 55px;
+  left: 40px;
+  background-color: #294464;
+  border-color: transparent;
+  color: white;
+  font-family: Avenir, sans-serif;
+  padding: 10px 30px;
+  border-radius: 5%;
+}
+
+.list-padding {
+  padding-left: 80px;
+  padding-top: 45px;
+}
+
+.hr-margin {
+  margin-bottom: 50px;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-space-evenly {
+  justify-content: space-evenly;
+}
+
+.gray-background {
+  background-color: #fafafa;
+  margin-top: 40px;
+  height: 350px;
+}
+
+.dark-gray-background {
+  background-color: #525351;
+  height: 350px;
+}
+
+.clinician-header {
+  text-align: center;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 500;
+  color: #777;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.clinician-paragraph {
+  text-align: center;
+  font-family: Avenir, sans-serif;
+  font-size: 11px;
+  color: #919191;
+  font-weight: 600;
+  line-height: 15px;
+  margin-top: 0;
+  padding-bottom: 30px;
+}
+
+.column-half {
+  flex-basis: 50%;
+}
+
+.location-format {
+  text-align: center;
+  line-height: 30px;
+  font-family: Avenir, sans-serif;
+  color: #747474;
+  font-weight: bolder;
+  font-size: 14px;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.as-center {
+  align-self: center;
+}
+
+.column-three-fourths {
+  flex-basis: 75%;
+}
+
+.second-started-button {
+  background-color: #294464;
+  border-color: transparent;
+  color: white;
+  font-family: Avenir, sans-serif;
+  padding: 10px 30px;
+  border-radius: 5%;
+  margin-left: 50px;
+}
+
+.learn-header {
+  text-align: left;
+  font-family: "Tiempos Headline", sans-serif;
+  font-weight: 500;
+  color: #777;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 24px;
+  padding-left: 60px;
+}
+
+.learn-paragraph {
+  text-align: left;
+  font-family: Avenir, sans-serif;
+  font-size: 11px;
+  color: #919191;
+  font-weight: 600;
+  line-height: 15px;
+  margin-top: 0;
+  padding-bottom: 30px;
+  padding-left: 60px;
+}
+
+.white-logo-image {
+  width: 45%;
+  padding-top: 90px;
+  padding-left: 80px;
+}
+
+.contact-info-format {
+  color: #f1f1f1;
+  line-height: 27px;
+  font-family: Avenir, sans-serif;
+  padding-left: 80px;
+  padding-top: 20px;
+}
+
+.company-links {
+  font-family: Avenir, sans-serif;
+  color: #f1f1f1;
+  line-height: 35px;
+  padding-top: 55px;
+  font-size: 16px;
+}
+
+.gray-background-two {
+  background-color: #fafafa;
+  height: 100px;
+}
+
+.footer {
+  display: inline-block;
+  font-size: 16px;
+  font-family: Avenir, sans-serif;
+  padding-top: 25px;
+  padding-left: 60px;
+  font-weight: 500;
+  color: #888;
+}
