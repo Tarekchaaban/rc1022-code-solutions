@@ -1,0 +1,59 @@
+body {
+  font-family: Barlow, sans-serif;
+}
+
+.container {
+  width: 1100px;
+  margin: auto;
+}
+
+.header-format {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.jc-space-around {
+  justify-content: space-around;
+}
+
+.column-one-fourth {
+  flex-basis: 25%;
+}
+
+.large-picture {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.small-picture {
+  width: 20%;
+  display: block;
+  margin: auto;
+}
+
+.h4-format {
+  font-weight: bolder;
+  text-align: center;
+  font-size: 14px;
+}
+
+.paragraph-format {
+  text-align: center;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+
+.padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.gray-background {
+  background-color: #f7f8fa;
+  width: 1300px;
+  margin: auto;
+}
