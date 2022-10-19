@@ -1,0 +1,59 @@
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: auto;
+}
+
+.header-format {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.image-format {
+  width: 90%;
+  margin: auto;
+}
+
+.image-height {
+  height: 269px;
+}
+
+.h4-format {
+  font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 10px;
+}
+
+.span-background-format {
+  font-size: 10px;
+  font-weight: bold;
+  padding-left: 5px;
+  background-color: #fff2e7;
+  width: 90px;
+}
+
+.span-one-format {
+  color: #e6e6e6;
+}
+
+.span-two-format {
+  text-decoration: line-through;
+  color: #e6e6e6;
+  background-color: #fff;
+  font-size: 10px;
+  padding-left: 5px;
+}
