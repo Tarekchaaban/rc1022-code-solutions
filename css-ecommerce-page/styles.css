@@ -34,12 +34,16 @@ body {
 
 .h4-format {
   font-size: 12px;
+  margin-bottom: 12px;
+  margin-top: 10px;
 }
 
-.paragraph-format {
+.span-background-format {
   font-size: 10px;
   font-weight: bold;
   padding-left: 5px;
+  background-color: #fff2e7;
+  width: 90px;
 }
 
 .span-one-format {
@@ -49,4 +53,7 @@ body {
 .span-two-format {
   text-decoration: line-through;
   color: #e6e6e6;
+  background-color: #fff;
+  font-size: 10px;
+  padding-left: 5px;
 }
