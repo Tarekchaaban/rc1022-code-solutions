@@ -44,3 +44,12 @@ function logEachCharacter(string) {
     console.log(string[i]);
   }
 }
+
+function doubleAll(numbers) {
+  var doubled = [];
+  for (var i = 0; i < numbers.length; i++) {
+    var x = numbers[i] * 2;
+    numbers.push(x);
+  }
+  return doubled;
+}
