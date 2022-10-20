@@ -69,3 +69,5 @@ function getValues(object) {
   }
   return values;
 }
+
+getValues({ firstName: 'Tarek', lastName: 'Chaaban' });
