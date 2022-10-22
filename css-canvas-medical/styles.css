@@ -250,7 +250,7 @@ ul > li {
   color: #888;
 }
 
-.product-image {
+.header-product-image {
   background-image: url("images/product/product-header.jpg");
   height: 450px;
   width: 90%;
@@ -286,4 +286,50 @@ ul > li {
   font-family: Avenir, sans-serif;
   color: white;
   line-height: 20px;
+}
+
+.product-gray-background {
+  background-color: #fbfbfb;
+  margin-top: 50px;
+  padding-bottom: 60px;
+  padding-top: 80px;
+  padding-right: 10px;
+}
+
+.product-image {
+  margin: auto;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.product-image-header {
+  margin-top: 0;
+  font-family: "Tiempos Headline", sans-serif;
+  color: #50514f;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+.product-image-paragraph-one {
+  font-size: 14px;
+  font-family: Avenir, sans-serif;
+  line-height: 22px;
+  color: #616261;
+}
+
+.product-image-paragraph-two {
+  font-size: 16px;
+  font-family: Avenir, sans-serif;
+  color: #255675;
+}
+
+.product-image-quote {
+  font-family: "Tiempos Headline", sans-serif;
+  font-style: italic;
+  color: #616261;
+}
+
+.product-image-signature {
+  font-family: Avenir, sans-serif;
+  color: #616261;
 }
