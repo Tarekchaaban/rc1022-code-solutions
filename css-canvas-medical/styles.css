@@ -246,7 +246,7 @@ ul > li {
   font-family: Avenir, sans-serif;
   padding-top: 25px;
   padding-left: 60px;
-  font-weight: 500;
+  font-weight: bolder;
   color: #888;
 }
 
@@ -291,9 +291,7 @@ ul > li {
 .product-gray-background {
   background-color: #fbfbfb;
   margin-top: 50px;
-  padding-bottom: 60px;
-  padding-top: 80px;
-  padding-right: 10px;
+  padding: 80px 10px 60px 20px;
 }
 
 .product-image {
@@ -308,6 +306,7 @@ ul > li {
   color: #50514f;
   font-size: 24px;
   font-weight: lighter;
+  padding-left: 20px;
 }
 
 .product-image-paragraph-one {
@@ -315,21 +314,37 @@ ul > li {
   font-family: Avenir, sans-serif;
   line-height: 22px;
   color: #616261;
+  padding-left: 20px;
 }
 
 .product-image-paragraph-two {
   font-size: 16px;
   font-family: Avenir, sans-serif;
   color: #255675;
+  padding-left: 20px;
 }
 
 .product-image-quote {
   font-family: "Tiempos Headline", sans-serif;
   font-style: italic;
   color: #616261;
+  padding-left: 20px;
 }
 
 .product-image-signature {
   font-family: Avenir, sans-serif;
   color: #616261;
+  padding-left: 20px;
+}
+
+.margin-top {
+  margin-top: 70px;
+}
+
+.padding-bottom {
+  padding-bottom: 60px;
+}
+
+.margin-top-2 {
+  margin-top: 35px;
 }
