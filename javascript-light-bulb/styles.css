@@ -1,0 +1,39 @@
+.body-white {
+  background-color: #fef9f1;
+  width: 1100px;
+  height: 1100px;
+  margin: auto;
+}
+
+.body-black {
+  background-color: #111;
+  width: 1100px;
+  height: 1100px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  height: 1100px;
+  align-items: center;
+}
+
+.column-one-fifth {
+  flex-basis: 20%;
+}
+
+.yellow-circle {
+  background-color: #faea84;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+}
+
+.charcoal-circle {
+  background-color: #252525;
+  width: 250px;
+  height: 250px;
+  border-radius: 150px;
+  box-shadow: 0 -20px #0c0c0c;
+}
