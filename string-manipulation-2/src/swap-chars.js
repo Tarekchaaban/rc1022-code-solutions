@@ -1,4 +1,7 @@
 /* exported swapChars */
 function swapChars(firstIndex, secondIndex, string) {
-  return string.replace(firstIndex, secondIndex);
+  var temp = string[firstIndex];
+  string[firstIndex] = string[secondIndex];
+  string[secondIndex] = temp;
+  return string;
 }
