@@ -1,4 +1,7 @@
 /* exported capitalizeWords */
+/* start off by splitting your string into an array and assign that to a variable, and creating an empty array.
+from there loop through the array and do the same thing as capitalizedWord function.
+push all the capitalized values into your empty array and return it. */
 function capitalizeWords(string) {
   var separatedWords = string.split(' ');
   var capitalizedWordArray = [];
