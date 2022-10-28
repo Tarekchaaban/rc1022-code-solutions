@@ -25,6 +25,10 @@ body {
   border-bottom: solid black;
 }
 
+.red-underline {
+  border-bottom: solid red;
+}
+
 .green {
   color: #18cd1b;
 }

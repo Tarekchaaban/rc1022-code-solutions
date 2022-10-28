@@ -6,7 +6,7 @@ function typingHandler(event) {
     $spans[counter + 1].className = 'underline';
     counter++;
   } else {
-    $spans[counter].className = 'red underline';
+    $spans[counter].className = 'red red-underline';
   }
 
 }
