@@ -1,10 +1,9 @@
 /* exported pick */
 function pick(source, keys) {
-  var newObject = {};
-  for (var i = 0; i < keys.length; i++) {
-    if (keys[i] === source) {
-      newObject = source;
+  keys.forEach(key => {
+    if (!source[key]) {
+      delete source[key];
     }
-  }
-  return newObject;
+  });
+  return source;
 }
