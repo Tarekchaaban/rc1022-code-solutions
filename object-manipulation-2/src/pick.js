@@ -1,9 +1,19 @@
 /* exported pick */
 function pick(source, keys) {
-  keys.forEach(key => {
-    if (!source[key]) {
-      delete source[key];
+  var newObject = {};
+  for (var key in source) {
+    if (keys.includes(key)) {
+      newObject[key] = source[key];
     }
-  });
-  return source;
+  }
+  return newObject;
 }
+
+/* var object = {
+  name: 'Tarek',
+  lastName: 'Chaaban',
+  pet: 'Cat'
+};
+var keyArray = ['name', 'pet'];
+
+console.log(pick(object, keyArray)); */
