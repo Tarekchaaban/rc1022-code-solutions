@@ -2,18 +2,9 @@
 function pick(source, keys) {
   var newObject = {};
   for (var key in source) {
-    if (keys.includes(key)) {
+    if (keys.includes(key) && source[key] !== undefined) {
       newObject[key] = source[key];
     }
   }
   return newObject;
 }
-
-/* var object = {
-  name: 'Tarek',
-  lastName: 'Chaaban',
-  pet: 'Cat'
-};
-var keyArray = ['name', 'pet'];
-
-console.log(pick(object, keyArray)); */
