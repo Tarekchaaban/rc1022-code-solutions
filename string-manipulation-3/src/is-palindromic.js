@@ -18,7 +18,7 @@ function isPalindromic(string) {
     return false;
   }
 }
-/* Doesn't pass the tests that have a space in it, not sure why, but went with
+/* Doesn't pass the tests that have a space in it but passes everything else, not sure how to easily remove the space on the reversed string and string we're comparing, so I went with
 another way of doing it.
 function isPalindromic(string) {
   var arrayValues = string.split('');
