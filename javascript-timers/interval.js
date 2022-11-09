@@ -11,7 +11,7 @@ setInterval(() => {
   }
 }, 1000); */
 
-setInterval(changeCountdown, 1000);
+var countdownInterval = setInterval(changeCountdown, 1000);
 var countdown = 4;
 function changeCountdown() {
   var $countdownDisplay = document.querySelector('.countdown-display');
@@ -19,6 +19,6 @@ function changeCountdown() {
   countdown--;
   if (countdown < 0) {
     $countdownDisplay.textContent = '~Earth below Us~';
-    clearInterval(1);
+    clearInterval(countdownInterval);
   }
 }
