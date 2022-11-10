@@ -98,7 +98,9 @@ function viewSwap(event) {
     rotate();
   }
 }
-/* var $chevronLeft = document.querySelector('.fa-chevron-left');
+
+/* OLD VERSION
+var $chevronLeft = document.querySelector('.fa-chevron-left');
 var $chevronRight = document.querySelector('.fa-chevron-right');
 var $displayImage = document.querySelector('.display-image');
 var $circleOne = document.querySelector('.one');
