@@ -8,6 +8,7 @@ var $circleFour = document.querySelector('.four');
 var $circleFive = document.querySelector('.five');
 $chevronRight.addEventListener('click', rightHandler);
 $chevronLeft.addEventListener('click', leftHandler);
+
 var count = 0;
 function rightHandler(event) {
   if (count === 0) {
