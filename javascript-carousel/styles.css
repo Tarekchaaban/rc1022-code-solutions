@@ -1,0 +1,43 @@
+body {
+  width: 1100px;
+  margin: auto;
+  border: 5px solid black;
+}
+
+.row {
+  display: flex;
+}
+
+.column-fourth {
+  flex-basis: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column-half {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 550px;
+}
+
+.column-full {
+  flex-basis: 100%;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+}
+
+img {
+  width: 80%;
+}
+
+.chevron {
+  font-size: 40px;
+}
+
+.circle {
+  padding-right: 10px;
+}
