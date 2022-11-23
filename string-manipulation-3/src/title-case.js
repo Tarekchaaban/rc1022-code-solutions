@@ -2,11 +2,21 @@
 function titleCase(title) {
 
   var titleWordsArray = title.toLowerCase();
-  titleWordsArray = title.split(' ');
+  titleWordsArray = titleWordsArray.split(' ');
   var updatedTitleWordsArray = [];
   var ApaTitle = '';
   for (var i = 0; i < titleWordsArray.length; i++) {
-    if (i === 0 || titleWordsArray[i].length > 3) {
+    /* var previousString = titleWordsArray[i - 1];
+    if (previousString[previousString.length - 1] === ':') {
+      var firstLetter = titleWordsArray[i].slice(0, 1);
+      var restOfWord = titleWordsArray[i].slice(1, titleWordsArray[i].length);
+      var capitalizedFirstWord = firstLetter.toUpperCase() + restOfWord.toLowerCase();
+      updatedTitleWordsArray.push(capitalizedFirstWord);
+    } */
+    if (titleWordsArray[i].toLowerCase() === 'javascript') {
+      titleWordsArray[i] = 'JavaScript';
+      updatedTitleWordsArray.push(titleWordsArray[i]);
+    } else if (i === 0 || titleWordsArray[i].length > 3) {
       var firstLetter = titleWordsArray[i].slice(0, 1);
       var restOfWord = titleWordsArray[i].slice(1, titleWordsArray[i].length);
       var capitalizedFirstWord = firstLetter.toUpperCase() + restOfWord.toLowerCase();
