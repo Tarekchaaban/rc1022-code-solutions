@@ -1,4 +1,9 @@
 /* exported titleCase */
+/* split the title into an array so that you can deal with each word individually.
+create a for loop that loops over the array of words. create a condtiional for that tests if a word is javascript and returns
+JavaScript, same for API. Add a conditional to check if a word is less three letters but not any of the minor words
+to capitalize, one to check if a word is a 3 letters or less but not api to lowercase, and special case
+for colon and hyphen. */
 function titleCase(title) {
 
   var titleWordsArray = title.toLowerCase();
