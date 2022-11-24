@@ -1,4 +1,6 @@
 /* exported reverseWords */
+/* split string into an array, then loop over those words in the array. make another
+loop that loops over a single word backwards and pushes it into a reversed word variable. */
 function reverseWords(string) {
   var splitWordArray = string.split(' ');
   var splitWordArraySingleWordReversed = '';
@@ -12,21 +14,3 @@ function reverseWords(string) {
   }
   return splitWordArraySingleWordReversed;
 }
-
-/*
-another way to do it by using an empty array to push the reversed strings into,
-but the string is initiated within the outer for loop so it resets after each single
-word in the array is reversed.
-
-function reverseWords(string) {
-  var splitWordArray = string.split(' ');
-  var splitWordArrayReversed = [];
-  for (var i = 0; i < splitWordArray.length; i++) {
-    var splitWordArraySingleWordReversed = '';
-    for (var j = splitWordArray[i].length - 1; j >= 0; j--) {
-      splitWordArraySingleWordReversed += splitWordArray[i][j];
-    }
-    splitWordArrayReversed.push(splitWordArraySingleWordReversed);
-  }
-  return splitWordArrayReversed.join(' ');
-} */

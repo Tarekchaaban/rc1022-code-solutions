@@ -1,4 +1,5 @@
 /* exported isPalindromic */
+/* make a loop that goes backwards and store each index of that loop into a reversestring variable. compare that to your regular string. */
 function isPalindromic(string) {
   var reverseString = '';
   var compareString = '';

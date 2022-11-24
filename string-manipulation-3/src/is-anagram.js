@@ -1,4 +1,6 @@
 /* exported isAnagram */
+/* first split the string into an array, then use the .sort method to sort the arrays values. rejoin the arrays and
+check to see if they are the same value */
 function isAnagram(firstString, secondString) {
   var firstStringSorted = firstString.split('').sort().join('');
   var secondStringSorted = secondString.split('').sort().join('');
