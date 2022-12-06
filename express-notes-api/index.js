@@ -46,9 +46,11 @@ app.post('/api/notes', (req, res) => {
     const err500 = { error: 'An unexpected error occurred.' };
     fs.writeFile('data.json', dataString, 'utf-8', err => {
       if (err) {
+        res.status(500);
         console.error(err);
         res.json(err500);
       } else {
+        res.status(200);
         res.json(req.body);
       }
     });
@@ -68,7 +70,17 @@ app.delete('/api/notes/:id', (req, res) => {
     res.send(err404);
   } else {
     delete data.notes[req.params.id];
-    res.sendStatus(204);
+    const dataString = JSON.stringify(data, null, 2);
+    const err500 = { error: 'An unexpected error occurred.' };
+    fs.writeFile('data.json', dataString, 'utf-8', err => {
+      if (err) {
+        res.status(500);
+        console.error(err);
+        res.json(err500);
+      } else {
+        res.sendStatus(204);
+      }
+    });
   }
 });
 
@@ -86,6 +98,16 @@ app.put('/api/notes/:id', (req, res) => {
   } else {
     req.body.id = idNumber;
     data.notes[idNumber] = req.body;
-    res.sendStatus(204);
+    const dataString = JSON.stringify(data, null, 2);
+    const err500 = { error: 'An unexpected error occurred.' };
+    fs.writeFile('data.json', dataString, 'utf-8', err => {
+      if (err) {
+        res.status(500);
+        console.error(err);
+        res.json(err500);
+      } else {
+        res.sendStatus(204);
+      }
+    });
   }
 });
