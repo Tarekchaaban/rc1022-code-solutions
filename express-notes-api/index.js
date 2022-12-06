@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 const data = require('./data.json');
 const json = express.json();
+const fs = require('fs');
 app.use(json);
 
 app.get('/api/notes', (req, res) => {
@@ -40,13 +41,17 @@ app.post('/api/notes', (req, res) => {
     res.status(201);
     req.body.id = data.nextId;
     data.notes[data.nextId] = req.body;
-    res.json(req.body);
     data.nextId++;
-  }
-  if (!data.notes[data.nextId]) {
-    res.status(500);
-    const err500 = { error: 'An unexpected error has occured.' };
-    res.send(err500);
+    const dataString = JSON.stringify(data, null, 2);
+    const err500 = { error: 'An unexpected error occurred.' };
+    fs.writeFile('data.json', dataString, 'utf-8', err => {
+      if (err) {
+        console.error(err);
+        res.json(err500);
+      } else {
+        res.json(req.body);
+      }
+    });
   }
 });
 
