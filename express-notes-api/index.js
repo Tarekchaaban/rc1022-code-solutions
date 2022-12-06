@@ -50,7 +50,7 @@ app.post('/api/notes', (req, res) => {
   }
 });
 
-app.delete('/api/grades/:id', (req, res) => {
+app.delete('/api/notes/:id', (req, res) => {
   const idNumber = Number(req.params.id);
   if (!(idNumber > 0)) {
     res.status(400);
@@ -63,6 +63,24 @@ app.delete('/api/grades/:id', (req, res) => {
     res.send(err404);
   } else {
     delete data.notes[req.params.id];
+    res.sendStatus(204);
+  }
+});
+
+app.put('/api/notes/:id', (req, res) => {
+  const idNumber = Number(req.params.id);
+  if ((!(idNumber > 0)) || (!req.body.content)) {
+    res.status(400);
+    const err400 = { error: 'id must be a positive integer or content is missing' };
+    res.send(err400);
+  } else if (!data.notes[idNumber]) {
+    const err404 = { error: 'cannot find note with id ' };
+    err404.error += idNumber;
+    res.status(404);
+    res.send(err404);
+  } else {
+    req.body.id = idNumber;
+    data.notes[idNumber] = req.body;
     res.sendStatus(204);
   }
 });
