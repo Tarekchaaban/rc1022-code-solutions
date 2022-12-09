@@ -24,7 +24,7 @@ console.log(startWithE);
 function haveDFunction(name) {
   if (name.includes('d')) {
     return true;
-  } else if (name.startsWith('D')) {
+  } else if (name.includes('D')) {
     return true;
   } else {
     return false;
