@@ -50,7 +50,7 @@ app.post('/api/grades', (req, res) => {
   db.query(sql, valuesArray)
     .then(result => {
       res.status(201);
-      res.json(result.rows[result.rows.length - 1]);
+      res.json(result.rows[0]);
 
     })
     .catch(error => {
@@ -118,7 +118,7 @@ app.delete('/api/grades/:gradeId', (req, res) => {
           error: `Cannot find grade with gradeId ${gradeId}`
         });
       } else {
-        res.status(201);
+        res.sendStatus(204);
         res.json(result.rows[0]);
       }
     })
