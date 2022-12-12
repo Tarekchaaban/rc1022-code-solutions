@@ -1,6 +1,7 @@
 class ExampleClass {
   constructor(example) {
     this.example = example;
+
   }
 
 }
