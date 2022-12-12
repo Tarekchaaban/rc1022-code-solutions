@@ -3,9 +3,6 @@ class ExampleClass {
     this.example = example;
   }
 
-  getExample() {
-    return this.example;
-  }
 }
 
 const example = new ExampleClass();
