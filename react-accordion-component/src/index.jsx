@@ -11,4 +11,4 @@ const topics = [
 
 ];
 
-root.render(<Accordion topic={topics}/>);
+root.render(<Accordion topics={topics}/>);
