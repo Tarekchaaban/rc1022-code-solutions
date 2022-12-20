@@ -14,6 +14,7 @@ module.exports = function devMiddleware(publicPath) {
       path: '/'
     })), 100);
   });
+
   const bundler = webpack(config);
   return [
     livereloadMiddleware(),
