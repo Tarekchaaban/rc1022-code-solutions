@@ -1,0 +1,9 @@
+.border {
+  border: 2px solid black;
+  width: 50%;
+  background-color: gray;
+}
+
+.center {
+  text-align: center;
+}
