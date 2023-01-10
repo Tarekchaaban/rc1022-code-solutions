@@ -1,0 +1,45 @@
+.on {
+  background-color: green;
+  border-radius: 10px;
+  padding: 12px 25px;
+}
+
+.relative {
+  position: relative;
+}
+
+.on-two {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  right: 0;
+  top: 0;
+}
+
+.on-label {
+  display: inline-block;
+  padding-left: 2px;
+  margin-top: 5px;
+}
+
+.off {
+  background-color: gray;
+  border-radius: 10px;
+  padding: 12px 25px;
+}
+
+.off-two {
+  position: absolute;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: white;
+  left: 0;
+  top: 0;
+}
+
+.off-label {
+  display: inline-block;
+  padding-left: 2px;
+  margin-top: 5px;
+}
