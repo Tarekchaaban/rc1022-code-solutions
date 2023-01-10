@@ -1,0 +1,18 @@
+.block {
+  display: block;
+}
+
+.fa-xmark {
+  color: red;
+  margin-left: 10px;
+}
+
+.required-text {
+  color: red;
+  margin-top: 0;
+}
+
+.fa-check {
+  color: green;
+  margin-left: 10px;
+}
