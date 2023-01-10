@@ -1,0 +1,22 @@
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border-radius: 100%;
+  border: 10px solid black;
+}
+
+.fa-solid {
+  color: black;
+  font-size: 60px;
+  margin-left: 93px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.counter {
+  text-align: center;
+  margin-top: 4.5rem;
+  font-size: 50px;
+  font-weight: bold;
+}
